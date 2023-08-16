@@ -18,6 +18,7 @@
   <button type="submit" class="btn btn-info" onclick="getblynk4()">LEFT</button>
   <button type="submit" class="btn btn-info" onclick="getblynk5()">GRIP</button>
   <button type="submit" class="btn btn-info" onclick="getblynk6()">RELEASE</button>
+  <button type="submit" class="btn btn-info" onclick="getblynk7()">STOP</button>
 </div>
 
 <script>
@@ -51,6 +52,10 @@
     console.log(data);
   });
   }
+
+   function getblynk7(){
+  $.get("https://blynk.cloud/external/api/update?token=SEYzlM7iYOryw0D5MJjNwXeDgEwLn_Eq&V70=1", (data, status) => {
+    console.log(data);
 </script>
 
 </body>
