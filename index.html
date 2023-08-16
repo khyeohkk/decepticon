@@ -11,12 +11,42 @@
 <body>
 
 <div class="container">
-  <h1>Button for ESp32 x</h1>
-  <button type="submit" class="btn btn-info" onclick="getblynk()">Click Me!</button>
+  <h1>Button for Decepticon</h1>
+  <button type="submit" class="btn btn-info" onclick="getblynk1()">FORWARD</button>
+  <button type="submit" class="btn btn-info" onclick="getblynk2()">REVERSE</button>
+  <button type="submit" class="btn btn-info" onclick="getblynk3()">RIGHT</button>
+  <button type="submit" class="btn btn-info" onclick="getblynk4()">LEFT</button>
+  <button type="submit" class="btn btn-info" onclick="getblynk5()">GRIP</button>
+  <button type="submit" class="btn btn-info" onclick="getblynk6()">RELEASE</button>
 </div>
 
 <script>
-  function getblynk(){
+  function getblynk1(){
+  $.get("https://blynk.cloud/external/api/update?token=rKOgUiuZz1yriWCRxr183nzBE7W77iXB&V1=0", (data, status) => {
+    console.log(data);
+  });
+  }
+  function getblynk2(){
+  $.get("https://blynk.cloud/external/api/update?token=rKOgUiuZz1yriWCRxr183nzBE7W77iXB&V1=0", (data, status) => {
+    console.log(data);
+  });
+  }
+  function getblynk3(){
+  $.get("https://blynk.cloud/external/api/update?token=rKOgUiuZz1yriWCRxr183nzBE7W77iXB&V1=0", (data, status) => {
+    console.log(data);
+  });
+  }
+  function getblynk4(){
+  $.get("https://blynk.cloud/external/api/update?token=rKOgUiuZz1yriWCRxr183nzBE7W77iXB&V1=0", (data, status) => {
+    console.log(data);
+  });
+  }
+  function getblynk5(){
+  $.get("https://blynk.cloud/external/api/update?token=rKOgUiuZz1yriWCRxr183nzBE7W77iXB&V1=0", (data, status) => {
+    console.log(data);
+  });
+  }
+  function getblynk6(){
   $.get("https://blynk.cloud/external/api/update?token=rKOgUiuZz1yriWCRxr183nzBE7W77iXB&V1=0", (data, status) => {
     console.log(data);
   });
